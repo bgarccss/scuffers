@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scuffers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="site-title-wrap">
+      <span class="site-title">scuffers</span>
+    </a>
+    <nav class="nav-bar">
+      <a href="index.html"    class="nav-btn btn-inicio">inicio</a>
+      <a href="aboutus.html"  class="nav-btn btn-nosotros">nosotros</a>
+      <a href="catalogo.html" class="nav-btn btn-clientes">catálogo</a>
+      <a href="contacto.html" class="nav-btn btn-contacto">contáctanos</a>
+    </nav>
+  </header>
+
+  <p class="hero-tagline">
+    Una marca de ropa costarricense con estilo urbano y moderno, enfocada en prendas cómodas,
+    sencillas y fáciles de combinar para el día a día.
+  </p>
+
+  <!-- BANNER -->
+  <div class="hero-banner">
+    <img src="banner.png" alt="Scuffers — Colección">
+  </div>
+
+  <section class="services-section">
+    <h2 class="services-title">nuestros servicios</h2>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <h3>Entregas internacionales:</h3>
+        <p>La marca permite realizar compras online y enviar productos a distintos países del mundo.</p>
+        <div class="service-icon">
+          <img src="delivery_fixed.png" alt="Entregas internacionales">
+        </div>
+      </div>
+
+      <div class="service-card">
+        <h3>Cambios y devoluciones:</h3>
+        <p>Los clientes pueden solicitar cambios o devoluciones para brindar una mejor experiencia de compra.</p>
+        <div class="service-icon">
+          <img src="shopin_fixed.png" alt="Cambios y devoluciones">
+        </div>
+      </div>
+
+      <div class="service-card">
+        <h3>Colecciones exclusivas:</h3>
+        <p>Scuffers lanza diseños y colecciones limitadas inspiradas en la moda urbana y las tendencias actuales.</p>
+        <div class="service-icon">
+          <img src="cloth_fixed.png" alt="Colecciones exclusivas">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="subscribe-section">
+    <div class="subscribe-left">
+      <h2>suscríbete y obtén un 10% de descuento</h2>
+      <p>Reciba noticias sobre las colecciones, reposiciones, eventos y rebajas de Scuffers.</p>
+      <img src="logo_small.png" alt="Scuffers logo" class="horse-img">
+    </div>
+
+    <form class="subscribe-form" onsubmit="return false;">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="form-field">
+          <label for="cedula">Cédula:</label>
+          <input type="text" id="cedula" name="cedula">
+        </div>
+      </div>
+      <div class="form-field full">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo">
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
